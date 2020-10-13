@@ -1,0 +1,19 @@
+﻿@{ 
+    ViewData["Title"] = "FizzBuzz";
+}
+
+<h1>Fizz Buzz</h1>
+
+<form asp-action="FizzBuzz">
+    <div class="row">
+        <div class="col">
+            <input type="number" name="fizz" placeholder="Fizz..." />
+        </div>
+        <div class="col">
+            <input type="number" name="buzz" placeholder="Buzz..." />
+        </div>
+        <div class="col">
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+    </div>
+</form>
