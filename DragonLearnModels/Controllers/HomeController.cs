@@ -37,10 +37,12 @@ namespace DragonLearnModels.Controllers
         public IActionResult FizzBuzz(int fizz, int buzz)
         {
             // fbm -> fizz buzz model
-            var fbm = new FizzBuzzModel();
-            fbm.Fizz = fizz;
-            fbm.Buzz = buzz;
-            fbm.Output = $"Fizz: {fbm.Fizz}, Buzz: {fbm.Buzz}";
+            var fbm = new FizzBuzzModel
+            {
+                Fizz = fizz,
+                Buzz = buzz,
+                Output = $"Fizz: {fizz}, Buzz: {buzz}"
+            };
             return RedirectToAction("Result", fbm);
         }
 
