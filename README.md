@@ -2,7 +2,7 @@
  
 ![Solution Page](https://github.com/mackenzieweaver/Fizz-Buzz-w-custom-model/blob/main/DragonLearnModels/fizzbuzzcustommodel.png)
 
-### Why did I make Taco Cat, again...?
+### Why did I make Fizz Buzz, yet again...?
 
 Because this time it's built with ASP.NET Core MVC and I actually used a custom model to model the data.
 
@@ -14,7 +14,7 @@ The site is not live because it has not been hosted and/or deployed anywhere.
 
 But you can clone this repo
 
-`git clone https://github.com/mackenzieweaver/TacocatWCustomModel`
+`git clone https://github.com/mackenzieweaver/Fizz-Buzz-w-custom-model`
 
 ### Contribute
 
