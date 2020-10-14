@@ -41,8 +41,27 @@ namespace DragonLearnModels.Controllers
             {
                 Fizz = fizz,
                 Buzz = buzz,
-                Output = $"Fizz: {fizz}, Buzz: {buzz}"
+                Output = ""
             };
+            for(var i = 1; i <= 100; i++)
+            {
+                if(i % fbm.Fizz == 0 && i % fbm.Buzz == 0)
+                {
+                    fbm.Output += "FizzBuzz ";
+                } 
+                else if (i % fbm.Fizz == 0)
+                {
+                    fbm.Output += "Fizz ";
+                }
+                else if(i % fbm.Buzz == 0)
+                {
+                    fbm.Output += "Buzz ";
+                }
+                else
+                {
+                    fbm.Output += i.ToString() + " ";
+                }
+            }
             return RedirectToAction("Result", fbm);
         }
 
