@@ -1,6 +1,6 @@
 # Fizz-Buzz-w-custom-model
  
-![Solution Page](https://github.com/mackenzieweaver/TacocatWCustomModel/blob/main/TacocatWCustomModel/tacocatwcustommodel.png)
+![Solution Page](https://github.com/mackenzieweaver/Fizz-Buzz-w-custom-model/blob/main/DragonLearnModels/fizzbuzzcustommodel.png)
 
 ### Why did I make Taco Cat, again...?
 
